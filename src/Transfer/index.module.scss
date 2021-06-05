@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 39px;
+
+  & div span:first-child {
+    color: #A0B0B9;
+    text-transform: uppercase;
+    font-family: OpenSans-SemiBold;
+    font-size: 12px;
+  }
+
+  & div span:last-child {
+    color: #4A4A4A;
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+  }
+
+  & div {
+    width: 140px;
+  }
+}
+
+span {
+  display: block;
+}
