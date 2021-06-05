@@ -1,0 +1,40 @@
+.filter {
+  width: 232px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-right: 20px;
+  
+  & label {
+    display: block;
+    height: 40px;
+    background: url("../resources/img/checkboxDes.svg") no-repeat;
+    background-position: 20px 50%;
+    padding-left: 50px;
+    font-size: 13px;
+    line-height: 40px;
+    color: #4A4A4A;
+
+    &:hover {
+      cursor: pointer;
+      background-color:#F1FCFF !important;
+    }
+  }
+
+  & input {
+    display: none;
+
+    &:checked + label {
+      background: url("../resources/img/checkbox.svg") no-repeat;
+      background-position: 20px 50%;
+    }
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  color: #4A4A4A;
+  font-size: 12px;
+  font-family: OpenSans-SemiBold;
+  letter-spacing: 0.5px;
+  margin: 20px;
+}

@@ -1,0 +1,33 @@
+.container {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #DFE5EC;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  & div {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid #DFE5EC;
+    height: 100%;
+    line-height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: OpenSans-SemiBold;
+    letter-spacing: 0.5px;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.active {
+  color: #fff;
+  background-color: #2196F3;
+}
