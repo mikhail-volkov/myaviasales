@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css'
-import Filter from './Filter'
-import Logo from './Logo'
-import Sort from './Sort'
-import Ticket from './Ticket'
+import Filter from './components/Filter'
+import Logo from './components/Logo'
+import Sort from './components/Sort'
+import Ticket from './components/Ticket'
 
 function App() {
   return (

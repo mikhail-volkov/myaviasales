@@ -11,7 +11,7 @@
   & label {
     display: block;
     height: 40px;
-    background: url("../resources/img/checkboxDes.svg") no-repeat;
+    background: url("../../resources/img/checkboxDes.svg") no-repeat;
     background-position: 20px 50%;
     padding-left: 50px;
     font-size: 13px;
@@ -32,7 +32,7 @@
     display: none;
 
     &:checked + label {
-      background: url("../resources/img/checkbox.svg") no-repeat;
+      background: url("../../resources/img/checkbox.svg") no-repeat;
       background-position: 20px 50%;
     }
   }

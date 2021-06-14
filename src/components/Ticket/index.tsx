@@ -1,7 +1,7 @@
 import React from 'react'
 import Transfer from '../Transfer'
 import styles from './index.module.scss'
-import s7logo from '../resources/img/s7logo.svg'
+import s7logo from '../../resources/img/s7logo.svg'
 
 function Ticket() {
   return (

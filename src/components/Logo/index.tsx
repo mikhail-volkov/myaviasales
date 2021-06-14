@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './index.module.scss'
-import plane from '../resources/img/plane.svg'
+import plane from '../../resources/img/plane.svg'
 
 function Logo() {
   return (
