@@ -1,0 +1,4 @@
+
+export const GET_SEARCH_ID = 'GET_SEARCH_ID'
+export const GET_TICKETS_ALL = 'GET_TICKETS_ALL'
+export const SET_VISIBLE_TICKETS = 'SET_VISIBLE_TICKETS'
